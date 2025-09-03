@@ -1,0 +1,46 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+  position: relative;
+}
+
+.search-input {
+  border: none;
+  border-radius: 9999px;
+  padding: 8px 16px;
+  background-color: var(--card-bg);
+  box-shadow: 0 4px 12px var(--shadow);
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  color: var(--text);
+}
+
+.search-input:focus {
+  outline: none;
+  box-shadow: 0 0 0 4px rgba(255, 213, 74, 0.15);
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.icon {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.pro-badge {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: var(--pro-blue);
+  color: white;
+  padding: 4px 8px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: 500;
+}

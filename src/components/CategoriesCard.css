@@ -1,0 +1,42 @@
+.categories-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.category-item {
+  display: flex;
+  align-items: center;
+  padding: 8px 0;
+  border-bottom: 1px solid rgba(17,24,39,0.1);
+}
+
+.category-icon {
+  margin-right: 8px;
+  font-size: 18px;
+}
+
+.category-name {
+  flex: 1;
+  font-weight: 500;
+}
+
+.avatar-stack {
+  display: flex;
+}
+
+.avatar {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background-color: var(--primary);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  margin-left: -8px;
+}
+
+.avatar:first-child {
+  margin-left: 0;
+}
